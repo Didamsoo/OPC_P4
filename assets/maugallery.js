@@ -11,9 +11,7 @@
           options.navigation
         );
       }
-
-
-
+      
       $.fn.mauGallery.listeners(options);
 
       $(this)
