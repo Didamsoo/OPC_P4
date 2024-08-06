@@ -11,7 +11,7 @@
           options.navigation
         );
       }
-      
+
       $.fn.mauGallery.listeners(options);
 
       $(this)
@@ -30,8 +30,6 @@
           }
         });
 
-
-
       if (options.showTags) {
         $.fn.mauGallery.methods.showItemTags(
           $(this),
@@ -49,11 +47,9 @@
     lightBox: true,
     lightboxId: null,
     showTags: true,
-    tagsPosition: "top", // Positionnement des tags en haut
+    tagsPosition: "top", 
     navigation: true
   };
-
-
 
   $.fn.mauGallery.listeners = function(options) {
     $(".gallery-item").on("click", function() {
@@ -63,9 +59,6 @@
         return;
       }
     });
-
-
-
     $(".gallery").on("click", ".mg-prev", () =>
       $.fn.mauGallery.methods.prevImage(options.lightboxId)
     );
@@ -223,7 +216,7 @@
         gallery.append(tagsRow);
       } else if (position === "top") {
         gallery.prepend(tagsRow);
-      } else {
+      } else {s
         console.error(`Unknown tags position: ${position}`);
       }
     },
