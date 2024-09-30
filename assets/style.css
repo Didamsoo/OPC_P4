@@ -118,11 +118,12 @@ body {
   
 .nav-link:hover {
 	background-color: #BEB45A; /* Couleur dorée au survol */
+	color: #fff;
 
 }
   
 .nav-link.active-tag {
-	background-color: #d4a017; /* Couleur dorée au clic */
+	background-color: #BEB45A; /* Couleur dorée au clic */
 }
 
 .my-4 {
@@ -130,9 +131,9 @@ body {
 	
 }
 
-.nav-pills .nav-link {
-	color: #000;
-}
+/*.nav-pills .nav-link {
+	/*color: #000;*/
+/*}*/
 
 .item-column {
 	position: relative;
